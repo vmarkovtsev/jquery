@@ -20,11 +20,11 @@ define( [
 	"./var/isWindow",
 	"./core/DOMEval",
 	"./core/toType"
-], function( arr, document, getProto, slice, concat, push, indexOf,
+], function(arr, document, getProto, slice, concat, push, indexOf,
 	class2type, toString, hasOwn, fnToString, ObjectFunctionString,
 	support, isFunction, isWindow, DOMEval, toType ) {
 
-"use strict";
+'use strict';
 
 var
 	version = "@VERSION",
