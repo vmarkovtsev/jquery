@@ -83,7 +83,7 @@ jQuery.fn = jQuery.prototype = {
 	},
 
 	// Execute a callback for every element in the matched set.
-	each: function( callback ) {
+	each:function(callback ) {
 		return jQuery.each( this, callback );
 	},
 
