@@ -36,7 +36,7 @@ function safeActiveElement() {
 	} catch ( err ) { }
 }
 
-function on( elem, types, selector, data, fn, one ) {
+function on(elem, types, selector, data, fn, one ) {
 	var origFn, type;
 
 	// Types can be a map of types/handlers
